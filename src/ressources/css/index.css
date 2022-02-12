@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.app-header {
+  height: 100px;
+  display: block;
+  background-color: lightskyblue;
+  color: ghostwhite;
+}
+
+.nav-link {
+  text-decoration: none;
+  height: 40px;
+  min-width: 200px;
+  border: solid 1px ghostwhite;
+  color: ghostwhite;
+  display: inline-block;
+  text-align: center;
+  margin-right: 4px;
+}
+
+.nav-link:hover{
+  color: yellow;
+  border-color: yellow;
+
+}
+
+nav {
+  padding: 30px;
+  display: block;
+}
+
+p {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  background-color: aliceblue;
+  min-height: 75vh;
+  padding: 30px;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+footer {
+  background-color: lightseagreen;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.console {
+  width: 600px;
+  display: inline-block;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px 30px;
+  vertical-align: middle;
+}
+
+.exempleHooks {
+  display: table-caption;
+}
+
